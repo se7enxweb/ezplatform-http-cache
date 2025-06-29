@@ -1,5 +1,5 @@
 {
-    "name": "ezsystems/ezplatform-http-cache",
+    "name": "se7enxweb/ezplatform-http-cache",
     "description": "HTTP cache handling for eZ Platform.",
     "type": "ezplatform-bundle",
     "license": "GPL-2.0-only",
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "ezsystems/ezpublish-kernel": "^6.13.4@dev || ^7.3@dev",
+        "se7enxweb/ezpublish-kernel": "^6.13.4@dev || ^7.3@dev",
         "friendsofsymfony/http-cache-bundle": "^1.3.13",
         "friendsofsymfony/http-cache": "^1.4.5",
         "symfony/symfony": "^2.8.40 || ^3.4.11"
