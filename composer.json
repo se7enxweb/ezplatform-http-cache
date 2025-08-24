@@ -13,7 +13,7 @@
         "se7enxweb/ezpublish-kernel": "^6.13.4@dev || ^7.3@dev",
         "friendsofsymfony/http-cache-bundle": "^1.3.13",
         "friendsofsymfony/http-cache": "^1.4.5",
-        "symfony/symfony": "^2.8.40 || ^3.4.11"
+        "se7enxweb/symfony": "^2.8.40 || ^3.4.11"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7.27 || ^6.5.13",
