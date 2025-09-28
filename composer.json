@@ -1,8 +1,8 @@
 {
     "name": "se7enxweb/ezplatform-http-cache",
-    "description": "HTTP cache handling for eZ Platform.",
+    "description": "HTTP cache handling for Exponential Platform.",
     "type": "ezplatform-bundle",
-    "license": "GPL-2.0-only",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "eZ Systems",
