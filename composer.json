@@ -3,6 +3,9 @@
     "description": "HTTP cache handling for Exponential Platform.",
     "type": "ezplatform-bundle",
     "license": "GPL-2.0-or-later",
+    "replace": {
+        "ezsystems/ezplatform-http-cache": "self.version"
+    },
     "authors": [
         {
             "name": "eZ Systems",
