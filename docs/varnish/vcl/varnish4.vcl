@@ -121,6 +121,10 @@ sub vcl_backend_response {
 
     // Make Varnish keep all objects for up to 1 hour beyond their TTL, see vcl_hit for Request logic on this
     set beresp.grace = 1h;
+
+    // Do not add beresp.do_gzip for application/json or application/vnd.ez.api responses here: compressing
+    // responses that carry user data next to request-reflected input allows a BREACH attack. The upstream
+    // VCL of 2.x compressed them until 2.3.16 removed it (PKSA-wtj8-672s-hw2j); this VCL never did.
 }
 
 // Handle purge
