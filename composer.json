@@ -9,6 +9,9 @@
             "email": "dev-team@ez.no"
         }
     ],
+    "replace": {
+        "ezsystems/ezplatform-http-cache": "self.version"
+    },
     "require": {
         "se7enxweb/ezpublish-kernel": "^6.13.4@dev || ^7.3@dev",
         "friendsofsymfony/http-cache-bundle": "^1.3.13",
